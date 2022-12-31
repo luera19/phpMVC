@@ -1,2 +1,2 @@
 # phpMVC
-Clase de PHP con MVC (Pequeña Introducción a MVC utilizando PHP)
+Clase de PHP con MVC (Introducción a MVC utilizando PHP)
