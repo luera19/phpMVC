@@ -1,8 +1,13 @@
-<?php
-    include_once("controlador/controlador_paginas.php");
+<?php 
 
-    $controlador = new ControladorPaginas();
-    $controlador-> inicio();
+
+include_once("controlador/controlador_".$controlador.".php");
+
+$objControlador="Controlador".ucfirst($controlador);
+
+$controlador= new $objControlador();
+
+$controlador->$accion();
 
 
 ?>
